@@ -1,7 +1,7 @@
 version: '3.4'
 
 services:
-  mymulticontainer:
+  mymulticontainer: #comment
     image: runranweb.azurecr.io/mymulticontainer
     build:
       context: .
