@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   mymulticontainer:
-    image: ${DOCKER_REGISTRY-}mymulticontainer
+    image: runranweb.azurecr.io/mymulticontainer
     build:
       context: .
       dockerfile: Dockerfile
